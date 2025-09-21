@@ -1,0 +1,100 @@
+.header {
+    max-width: 95%;
+    height: 22vw;
+    background: url(./header.jpg) no-repeat;
+    background-size: cover;
+    color: antiquewhite;
+    position: relative;
+    margin: 30px auto;
+}
+
+.header-contents{
+    position: absolute;
+    justify-content: center;
+    margin-top: 25px;
+    margin-left: 50px;
+    align-items: start;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    animation: fadein 3s;
+}
+
+.header-contents p{
+    font-weight: 300;
+    max-width: 68%;
+    font-size: larger;
+    margin-top: 20px;
+}
+
+@media (max-width:1120px) {
+    .header-contents{
+        position: absolute;
+        justify-content: center;
+        margin-top: 50px;
+        margin-left: 50px;
+        align-items: start;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .header-contents p{
+        font-weight: 300;
+        max-width: 60%;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width:900px) {
+    .header-contents{
+        position: absolute;
+        justify-content: center;
+        margin-top: 30px;
+        margin-left: 50px;
+        align-items: start;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .header-contents p{
+        font-weight: 300;
+        max-width: 60%;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width:860px) {
+    .header-contents{
+        position: absolute;
+        justify-content: center;
+        margin-top: 20px;
+        margin-left: 50px;
+        align-items: start;
+    }
+    .header-contents p{
+        display: none;
+    }
+    .header-contents h2{
+        margin-top: 50px;
+        max-width: 70%;
+        font-size: 30px;
+    }
+}
+
+@media (max-width:615px) {
+    .header-contents{
+        position: absolute;
+        justify-content: center;
+        margin-top: 20px;
+        margin-left: 50px;
+        align-items: start;
+    }
+    .header-contents p{
+        display: none;
+    }
+    .header-contents h2{
+        margin-top: 20px;
+        max-width: 70%;
+        font-size: 25px;
+    }
+}

@@ -1,0 +1,30 @@
+.title-card {
+    text-align: center;
+    font-weight: 400;
+    margin: 10px 10px;
+}
+
+.title {
+    color: red;
+    font-size: 70px;
+}
+
+.title-college {
+    color: rgb(78, 42, 255);
+    font-size: 25px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.title-slogan {
+    color: rgb(159, 71, 236);
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    gap: 185px;
+    margin: 20px 23%;
+    font-weight: 500;
+    font-size: 20px;
+}

@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+.request-form {
+    margin: 60px 10%;
+    padding: 10px;
+    height: 950px;
+    background-color: #fcfcfc;
+    border: #515151 1px solid;
+}
+
+.form-heading{
+    font-family: 'Lora', serif;
+    font-weight: 700;
+    font-size: 30px;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #515151;
+}
+
+.patient-details, .blood-details-field, .hospital-details, .attender-details {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.patient-details p, .attender-details p, .blood-details-field p, .hospital-details p {
+    font-family: 'Lora', serif;
+    color: black;
+    margin-left: 100px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.patient-details-field {
+    display: flex;
+    flex-direction: row;
+    border-radius: 5px;
+    gap: 10px;
+    margin-left: 100px;
+}
+
+.patient-details-field input, .hospital-details input, .attender-details input {
+    width: 300px;
+    padding: 3px;
+    border: 1px solid #5f5e5e;
+    border-radius: 5px;
+    font-family: 'Lora', serif;
+    outline-color: #fd6161;
+    height: 25px;
+    box-shadow: #5f5e5e 0px 0px 2px;
+}
+
+.patient-details-field input:focus, .hospital-details input:focus, .attender-details input:focus {
+    box-shadow: 0 0 0 3px rgba(74, 144, 226, 0.15);
+}
+
+.multi-fields-up {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+}
+
+.multi-fields-up p {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin: 0;
+}
+
+.multi-fields-up input {
+    width: 20px;
+    margin-left: 100px;
+    height: 20px;
+    outline-color: #fd6161;
+}
+
+.multi-fields-up input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    box-shadow: #5f5e5e 0px 0px 2px;
+}
+
+.multi-fields-down {
+    margin-top: 15px;
+}
+
+.multi-fields-down input {
+    width: 150px;
+    padding: 3px;
+    border: 1px solid #5f5e5e;
+    border-radius: 5px;
+    font-family: 'Lora', serif;
+    outline-color: #fd6161;
+    box-shadow: #5f5e5e 0px 0px 2px;
+    margin-top: 5px;
+    margin-left: 100px;
+    height: 25px;
+}
+
+.mfd-p{
+    font-family: outfit;
+    color: black;
+    font-size: 10px;
+    font-weight: 500;
+    margin: 10px 0 10px 0;
+}
+
+.mfd-select {
+    width: 100px;
+    padding: 3px;
+    border: 1px solid #5f5e5e;
+    border-radius: 5px;
+    font-family: 'Lora', serif;
+    outline-color: #fd6161;
+    height: 30px;
+    box-shadow: #5f5e5e 0px 0px 2px;
+    margin: 5px 10px 5px 100px;
+}
+
+.hospital-details input, .attender-details input {
+    width: 650px;
+    padding: 5px;
+    border: 1px solid #5f5e5e;
+    border-radius: 5px;
+    font-family: 'Lora', serif;
+    outline-color: #fd6161;
+    box-shadow: #5f5e5e 0px 0px 2px;
+    margin-left: 100px;
+    margin-top: 5px;
+}
+
+.hospital-details textarea{
+    width: 655px;
+    height: 100px;
+    padding: 3px;
+    border: 1px solid #5f5e5e;
+    border-radius: 5px;
+    font-family: 'Lora', serif;
+    outline-color: #fd6161;
+    margin-left: 100px;
+    margin-top: 5px;
+    box-shadow: #5f5e5e 0px 0px 2px;
+}
+
+.attender-details input{
+    width: 300px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.form-submit {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.form-submit button {
+    width: 100px;
+    height: 35px;
+    background-color: #7c7b7b;
+    color: white;
+    font-weight: 500;
+    border-radius: 5px;
+    box-shadow: #7c7b7b 0px 0px 2px;
+    font-size: 18px;
+}
