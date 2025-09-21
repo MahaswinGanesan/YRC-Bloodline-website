@@ -1,0 +1,9 @@
+<p>Patient name: {res.patName}</p>
+                <p>Needs: {res.interests.join(', ')}</p>
+                <p>Blood group: {res.group}</p>
+                <p>Units: {res.units}</p>
+                <p>Date: {new Date(res.date).toLocaleDateString()}</p>
+                <p>Hospital: {res.hosName}</p>
+                <p>Hospital Address: {res.hosAddress}</p>
+                <p>Attender: {res.attName}</p>
+                <p>Phone number: {res.attPhone}</p>
